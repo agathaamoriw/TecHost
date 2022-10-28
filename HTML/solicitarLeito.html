@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Leitos</title>
+    <link rel="stylesheet" href="\site\css\style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title"> Solicitação</div>
+        <form action="#">
+             <div class="info"> <!--user details -->
+               
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Nome Completo 
+                    </span>
+                    <input type="text" placeholder="Nome Completo Medico" required id="nome_med">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        CRM 
+                    </span>
+                    <input type="text" placeholder="nº CRM medico" required id="CRM_med ">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Paciente 
+                    </span>
+                    <input type="text" placeholder="Nome completo paciente" required id="nome_pac">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        CPF 
+                    </span>
+                    <input type="text" placeholder="CPF do paciente" required id="cpf">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Nº de identificação 
+                    </span>
+                    <input type="text" placeholder="nº cartão paciente" required id="id_paciente">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Ala 
+                    </span>
+                    <input type="text" placeholder="ala de internação" required id="ala">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Observação 
+                    </span>
+                    <input type="text" placeholder="Observação" required id="obs">
+                </div>
+
+                <div class="input-box">
+                    <span class="texto"><!--details -->
+                        Prontuário 
+                    </span>
+                    <input type="file" placeholder="anexar prontuario" required id="prontuario">
+                </div>
+                
+            </div>
+
+                <div class="Container-genero"> <!--gender-details-->
+                    <input type="radio" name="genero" id="genero-masculino">
+                    <input type="radio" name="genero" id="genero-feminino">
+                    <input type="radio" name="genero" id="genero-ninforme">
+
+                    <span class="generoTitulo">Genero paciente</span>
+
+                    <div class="categorias">
+
+                        <label for="genero-masculino">
+                            <span class="dot one"></span>
+                            <span class="genero">Masculino</span>
+                        </label>
+                        
+                        <label for="genero-feminino">
+                            <span class="dot two"></span>
+                            <span class="genero">Feminino</span>
+                        </label>
+
+                        <label for="genero-ninforme">
+                            <span class="dot three"></span>
+                            <span class="genero">Outro</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit"  value="Enviar Solicitação">
+                </div>
+
+            
+        </form>
+    </div>
+    
+</body>
+</html>
